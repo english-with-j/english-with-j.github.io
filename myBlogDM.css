@@ -1,7 +1,7 @@
 html, .large { font-size: 36px;
                color: #ffffff;
                /*background-color: #000000;*/
-               background-color: red; } /* 225% */
+               background-color: #000000; } /* 225% */
                
 a { color:#ffccff; background-color:#000000;}
 
@@ -21,8 +21,8 @@ ul li { display: inline;
 		margin:  50px;
 		padding: 0px;/*When commented out it makes the elements pushed to the right*/ }
 
-@media (min-width: 60px) {
-  html { background-color: #000000;  } }
+@media (max-width: 500px) {
+  html { background-color: red;  } }
  
 
 
