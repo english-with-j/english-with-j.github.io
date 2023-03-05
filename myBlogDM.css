@@ -21,8 +21,8 @@ ul li { display: inline;
 		margin:  50px;
 		padding: 0px;/*When commented out it makes the elements pushed to the right*/ }
 
-@media (max-width: 500px) {
-  html { background-color: red;  } }
+/*If [device width] is less than or equal to 500px, then do {…}”*/
+@media only screen and (max-width: 768px) { html { background-color: red; } }
  
 
 
