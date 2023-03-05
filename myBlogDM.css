@@ -1,0 +1,31 @@
+html, .large { font-size: 36px;
+               color: #ffffff;
+               /*background-color: #000000;*/
+               background-color: red; } /* 225% */
+               
+a { color:#ffccff; background-color:#000000;}
+
+blockquote, button, select, .bq, .required {
+background-color: #0d0d0d; 
+        color: #ffffff;      
+        font-size: 0.8rem; }
+
+div {  font-size: 0.65rem; }
+/* #share {  font-size: 0.2rem;}*/
+/*.ul-horizontal { display: inline; }   This does not work. */
+
+ul { text-align: left }
+
+ul li { display: inline; 
+		font-size: 62.5%;
+		margin:  50px;
+		padding: 0px;/*When commented out it makes the elements pushed to the right*/ }
+
+@media (min-width: 60px) {
+  html { background-color: #000000;  } }
+ 
+
+
+
+/* background-color: #fff2e6F2 */
+
