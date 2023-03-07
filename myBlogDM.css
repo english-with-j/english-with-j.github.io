@@ -1,18 +1,11 @@
-html, .large { font-size: 36px;
+html { font-size: 36px;
                color: #ffffff;
-               /*background-color: #000000;*/
                background-color: #000000; } /* 225% */
                
-a { color:#ffccff; background-color:#000000;}
+@media(max-width: 600px) { html { font-size: 12px } }  
 
-blockquote, button, select, .bq, .required {
-background-color: #0d0d0d; 
-        color: #ffffff;      
-        font-size: 0.8rem; }
-
-div {  font-size: 0.65rem; }
-/* #share {  font-size: 0.2rem;}*/
-/*.ul-horizontal { display: inline; }   This does not work. */
+            
+a { color: #ffccff }
 
 ul { text-align: left }
 
@@ -21,9 +14,9 @@ ul li { display: inline;
 		margin:  50px;
 		padding: 0px;/*When commented out it makes the elements pushed to the right*/ }
 
+#share {  font-size: 0.618rem;}
 /*If [device width] is less than or equal to 500px, then do {…}”*/
-@media only screen and (max-width: 768px) { html { background-color: red; } }
- 
+
 
 
 
