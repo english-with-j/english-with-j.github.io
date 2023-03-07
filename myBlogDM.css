@@ -2,7 +2,7 @@ html { font-size: 36px;
                color: #ffffff;
                background-color: #000000; } /* 225% */
                
-@media(max-width: 600px) { html { font-size: 12px } }  
+@media(max-width: 600px) { html { font-size: 12px; background: lightblue; } }  
 
             
 a { color: #ffccff }
